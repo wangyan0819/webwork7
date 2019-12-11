@@ -1,0 +1,86 @@
+/*
+* @Author: Lenovo
+* @Date:   2019-12-10 18:25:21
+* @Last Modified by:   Lenovo
+* @Last Modified time: 2019-12-11 20:45:21
+*/
+ul{
+	list-style-type: none;
+
+}
+.box{
+	width: 1200px;
+	height: 380px;
+	border: 2px solid #000;
+	margin: 100px auto;
+	position: relative;
+	overflow:hidden;
+}
+.slider{
+	width: 8400px;
+	position: absolute;
+	left: -1200px;
+}
+.slide{
+	width:1200px;
+	height:385px;
+	overflow:hidden;
+	float: left;
+}
+.box>span{
+	display: block;
+	width: 40px;
+	height: 50px;
+	text-align: center;
+	cursor: pointer;
+	color: #eee;
+	top: 175px;
+	line-height: 50px;
+	background: #f00;
+	font-size: 30px;
+	position: absolute;
+	opacity: 0;
+}
+#left{
+
+	float: left;
+	left: 30px;
+}
+#right{
+	float: right;
+	right: 30px;
+}
+.nav{
+	position: absolute;
+	left: 500px;
+	bottom: 20px;
+}
+.nav>li{
+	float: left;
+	width: 20px;
+	height: 20px;
+	background: #eee;
+	cursor: pointer;
+	margin: 0 10px;
+	border-radius: 50%;
+	text-align: center;
+}
+.nav .active{
+	background: red;
+}
+.div1{
+	background-color: #eee;
+}
+ .div2{
+ 	display: block;
+ 	float: left;
+	margin-left: 50px;
+}
+p{
+	display: block;
+	/* float: left; */
+	position: relative;
+	overflow:hidden;
+	color: red;
+	left: 700px;
+}
